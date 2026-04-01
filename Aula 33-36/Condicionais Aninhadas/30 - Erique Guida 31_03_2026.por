@@ -19,7 +19,7 @@ programa {
       {
         compra = compra - (compra * (15 / 100))
       }
-      senao se(compra <= 300)
+      senao
       {
         compra = compra - (compra * (5 / 100))
       }
