@@ -1,0 +1,94 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.0 Safari/537.36" version="29.6.1">
+  <diagram name="Página-1" id="ox42ek9teYavnjzfc53P">
+    <mxGraphModel dx="1367" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Carro" vertex="1">
+          <mxGeometry height="210" width="260" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-3" parent="ERzhzp3GAt3lNPJRgD2W-2" style="text;strokeColor=#001DBC;fillColor=#0050ef;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- modelo: String&lt;div&gt;- cor: String&lt;/div&gt;&lt;div&gt;- preco: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-4" parent="ERzhzp3GAt3lNPJRgD2W-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-5" parent="ERzhzp3GAt3lNPJRgD2W-2" style="text;strokeColor=#001DBC;fillColor=#0050ef;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getModelo(): String&lt;div&gt;+ setModelo(String modelo): void&lt;/div&gt;&lt;div&gt;+ getCor(): String&lt;/div&gt;&lt;div&gt;+ setCor(String cor): void&lt;/div&gt;&lt;div&gt;+ getPreco(): double&lt;/div&gt;&lt;div&gt;+ setPreco(double preco)&lt;/div&gt;&lt;div&gt;+ acelerar(double pressaoAcelerador): double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="260" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="ContaBancaria" vertex="1">
+          <mxGeometry height="200" width="200" x="320" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-12" parent="ERzhzp3GAt3lNPJRgD2W-11" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" value="- id: int&lt;div&gt;- senha: int&lt;/div&gt;&lt;div&gt;- saldo: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-13" parent="ERzhzp3GAt3lNPJRgD2W-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-14" parent="ERzhzp3GAt3lNPJRgD2W-11" style="text;strokeColor=#BD7000;fillColor=#f0a30a;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#000000;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;+ getId(): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;+ setId(int id): void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;+ getSenha(): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ setSenha(String senha): void&lt;/div&gt;&lt;div&gt;+ sacar(double saldo): double&lt;/div&gt;&lt;div&gt;+ depositar(double saldo): double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="200" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" value="Produto&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="223" x="537" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-16" parent="ERzhzp3GAt3lNPJRgD2W-15" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div&gt;- nome: String&lt;/div&gt;&lt;div&gt;- descricao: String&lt;/div&gt;- id: int&lt;div&gt;- qtd: int&lt;br&gt;&lt;div&gt;- preco: double&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="223" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-17" parent="ERzhzp3GAt3lNPJRgD2W-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="223" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-18" parent="ERzhzp3GAt3lNPJRgD2W-15" style="text;strokeColor=#6F0000;fillColor=#a20025;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getNome(): String&lt;div&gt;+ setNome(String nome): void&lt;/div&gt;&lt;div&gt;+ getDescricao(): String&lt;/div&gt;&lt;div&gt;+ setDescricao(String descricao): void&lt;/div&gt;&lt;div&gt;+ getId(): int&lt;/div&gt;&lt;div&gt;+ getPreco(): double&lt;/div&gt;&lt;div&gt;+ setPreco(double Preco): void&lt;/div&gt;&lt;div&gt;+ cadastrarProduto(int qtd): int&lt;/div&gt;&lt;div&gt;+ venderProduto(int qtd): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="223" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-20" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" value="&lt;div&gt;Livro&lt;/div&gt;" vertex="1">
+          <mxGeometry height="270" width="220" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-21" parent="ERzhzp3GAt3lNPJRgD2W-20" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div&gt;- titulo: String&lt;/div&gt;&lt;div&gt;- autor: String&lt;/div&gt;&lt;div&gt;- editora: String&lt;/div&gt;&lt;div&gt;- qtdPaginas: int&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-22" parent="ERzhzp3GAt3lNPJRgD2W-20" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-23" parent="ERzhzp3GAt3lNPJRgD2W-20" style="text;strokeColor=#2D7600;fillColor=#60a917;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div&gt;+ getTitulo(): String&lt;/div&gt;&lt;div&gt;+ setTitulo(String titulo): void&lt;/div&gt;&lt;div&gt;+ getAutor(): String&lt;/div&gt;&lt;div&gt;+ setAutor(String autor): void&lt;/div&gt;&lt;div&gt;+ getEditora(): String&lt;/div&gt;&lt;div&gt;+ setEditora(String editora): void&lt;/div&gt;&lt;div&gt;+ getQtdPaginas(): int&lt;/div&gt;&lt;div&gt;+ setQtdPaginas(int qtdPaginas): void&lt;/div&gt;&lt;div&gt;+ abrir(): void&lt;/div&gt;&lt;div&gt;+ fechar() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="162" width="220" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-24" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" value="&lt;div&gt;Filme&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="190" x="40" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-25" parent="ERzhzp3GAt3lNPJRgD2W-24" style="text;strokeColor=#3700CC;fillColor=#6a00ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div&gt;- titulo: String&lt;/div&gt;&lt;div&gt;- diretor: String&lt;/div&gt;&lt;div&gt;- duracao: int&lt;/div&gt;&lt;div&gt;- classInd: int&lt;/div&gt;&lt;div&gt;- nota: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="190" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-26" parent="ERzhzp3GAt3lNPJRgD2W-24" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="190" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-27" parent="ERzhzp3GAt3lNPJRgD2W-24" style="text;strokeColor=#3700CC;fillColor=#6a00ff;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;div&gt;+ getTitulo(): String&lt;/div&gt;&lt;div&gt;+ setTitulo(String titulo): void&lt;/div&gt;&lt;div&gt;+ getDiretor(): String&lt;/div&gt;&lt;div&gt;+ setDiretor(String diretor): void&lt;/div&gt;&lt;div&gt;+ getDuracao(): int&lt;/div&gt;&lt;div&gt;+ setDuracao(int duracao): void&lt;/div&gt;&lt;div&gt;+ getClassInd(): void&lt;/div&gt;&lt;div&gt;+ setClassInd(int classInd): void&lt;/div&gt;&lt;div&gt;+ getNota(): double&lt;/div&gt;&lt;div&gt;+ setNota(double nota): void&lt;/div&gt;&lt;div&gt;+ assitir() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="172" width="190" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-28" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" value="&lt;div&gt;Pedido&lt;/div&gt;" vertex="1">
+          <mxGeometry height="300" width="220" x="290" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-29" parent="ERzhzp3GAt3lNPJRgD2W-28" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- cliente: String&lt;div&gt;- comercio: String&lt;/div&gt;&lt;div&gt;- conteudo: String&lt;/div&gt;&lt;div&gt;- peso: double&lt;/div&gt;&lt;div&gt;- tamanho: double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-30" parent="ERzhzp3GAt3lNPJRgD2W-28" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-31" parent="ERzhzp3GAt3lNPJRgD2W-28" style="text;strokeColor=#A50040;fillColor=#d80073;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getCliente(): String&lt;div&gt;+ setCliente(String clinete): void&lt;/div&gt;&lt;div&gt;+ getComercio(): String&lt;/div&gt;&lt;div&gt;+ setComercio(String comercio): void&lt;/div&gt;&lt;div&gt;+ getConteudo(): String&lt;/div&gt;&lt;div&gt;+ setConteudo(String conteudo): void&lt;/div&gt;&lt;div&gt;+ getPeso(): double&lt;/div&gt;&lt;div&gt;+ setPeso(double peso): void&lt;/div&gt;&lt;div&gt;+ getTamanho(): double&lt;/div&gt;&lt;div&gt;+ setTamanho(double tamanho): void&lt;/div&gt;&lt;div&gt;+ enviar(): void&lt;/div&gt;&lt;div&gt;+ abir(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="182" width="220" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-32" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" value="&lt;div&gt;Paciente&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="290" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-33" parent="ERzhzp3GAt3lNPJRgD2W-32" style="text;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="- nome: String&lt;div&gt;- dataNascimento: String&lt;/div&gt;&lt;div&gt;- sexo: char&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="290" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-34" parent="ERzhzp3GAt3lNPJRgD2W-32" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="290" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ERzhzp3GAt3lNPJRgD2W-35" parent="ERzhzp3GAt3lNPJRgD2W-32" style="text;strokeColor=#6D1F00;fillColor=#a0522d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="+ getNome(): String&lt;div&gt;+ setNome(String nome): void&lt;/div&gt;&lt;div&gt;+ getDataNascimento(): String&lt;/div&gt;&lt;div&gt;+ setDataNascimento(String dataNascimento): void&lt;/div&gt;&lt;div&gt;+ getSexo(): char&lt;/div&gt;&lt;div&gt;+ setSexo(char sexo): void&lt;/div&gt;&lt;div&gt;+ pegarSenha(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="122" width="290" y="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
